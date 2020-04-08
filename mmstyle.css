@@ -1,0 +1,117 @@
+
+/* ==========================
+Base Styles
+=============================*/
+
+* {
+    box-sizing: border-box;
+}
+
+.primary {
+    font-family: 'Poppins', sans-serif;
+}
+
+.col {
+    padding-left: 1em;
+    
+}
+
+.first-call {
+    color: purple;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.second-call {
+    color: rgb(34, 33, 33);
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.name {
+    color: purple;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+}
+.primary {
+    font-size: 13.4px;
+    line-height: 20px;
+    color: #494849e7;
+}
+
+.main-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-nav  li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.main-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 350px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+}
+
+a:hover {
+    color: purple;
+}
+
+.primary-button,
+.secondary-button {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ===============================
+Media Queries
+=================================*/
+
+@media (min-width: 769px) {
+
+    .main-header,
+    .main-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+
+    .main-nav li {
+        margin-right: 15px;
+    }
+
+    img {
+        width: 200px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+	.main-header,
+    .main-content {
+		width: 80%;
+		max-width: 1150px;
+    }
+    
+    .main-nav li {
+        margin-bottom: 0;
+    }
+
+    .name {
+        font-size: 19px;
+    }
+}
+
